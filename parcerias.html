@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>CheckGolpe.ai — Programa de Impacto & Parcerias Sociais</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800;900&display=swap');
+        
+        body { 
+            font-family: 'Plus Jakarta Sans', sans-serif; 
+            background-color: #06090e;
+            color: #f1f5f9;
+        }
+
+        .glass-panel {
+            background: linear-gradient(135deg, rgba(255, 255, 255, 0.03) 0%, rgba(255, 255, 255, 0.01) 100%);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+        }
+
+        .glass-card-danger {
+            background: linear-gradient(180deg, rgba(225, 29, 72, 0.08) 0%, rgba(6, 9, 14, 0.9) 100%);
+            border: 1px solid rgba(225, 29, 72, 0.3);
+        }
+
+        .spotlight-emerald {
+            background: radial-gradient(600px circle at 50% -20%, rgba(16, 185, 129, 0.18), transparent 80%);
+        }
+
+        .chat-bubble-in {
+            background-color: #1f2c34;
+            border-radius: 0px 14px 14px 14px;
+        }
+        .chat-bubble-out {
+            background-color: #005c4b;
+            border-radius: 14px 0px 14px 14px;
+        }
+        .chat-bubble-alert {
+            background-color: rgba(153, 27, 27, 0.55);
+            border: 1px solid rgba(239, 68, 68, 0.55);
+            border-radius: 0px 14px 14px 14px;
+        }
+    </style>
+</head>
+<body class="antialiased selection:bg-emerald-500 selection:text-slate-950">
+
+    <div class="spotlight-emerald min-h-screen">
+
+        <!-- 1. HEADER / NAVBAR -->
+        <nav class="sticky top-0 z-50 backdrop-blur-xl border-b border-white/5 bg-[#06090e]/80">
+            <div class="max-w-5xl mx-auto px-5 h-16 flex items-center justify-between">
+                <div class="flex items-center gap-2.5">
+                    <div class="w-10 h-10 rounded-xl bg-emerald-500/10 border border-emerald-500/20 flex items-center justify-center text-emerald-400 font-bold">
+                        <i class="fa-solid fa-shield-halved text-lg"></i>
+                    </div>
+                    <span class="font-extrabold text-2xl tracking-tight text-white">CheckGolpe<span class="text-emerald-400">.ai</span></span>
+                </div>
+                <span class="text-xs sm:text-sm font-extrabold px-4 py-2 rounded-full bg-rose-500/10 border border-rose-500/30 text-rose-400">
+                    Programa Social
+                </span>
+            </div>
+        </nav>
+
+        <!-- 2. HERO SECTION INSTITUCIONAL -->
+        <section class="max-w-4xl mx-auto px-5 pt-10 pb-12 text-center">
+            
+            <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-emerald-500/10 border border-emerald-500/20 text-emerald-400 text-sm sm:text-base font-semibold mb-6">
+                <i class="fa-solid fa-hand-holding-heart"></i>
+                Tecnologia Antifraude Gratuita para ONGs e Periferias
+            </div>
+
+            <h1 class="text-4xl sm:text-6xl font-black tracking-tight text-white leading-[1.15] mb-6">
+                Protegendo os mais vulneráveis contra a<br class="hidden sm:inline">
+                <span class="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 via-teal-300 to-cyan-300">
+                    violência financeira digital.
+                </span>
+            </h1>
+
+            <p class="text-slate-200 text-lg sm:text-xl max-w-2xl mx-auto mb-8 font-normal leading-relaxed">
+                Conectamos tecnologia antifraude no WhatsApp e acolhimento humano a projetos sociais. Levamos **licenças gratuitas e proteção contínua** para idosos, mães solo e famílias atendidas por ONGs parceiras.
+            </p>
+
+            <!-- CTA PARCERIA -->
+            <div class="max-w-md mx-auto mb-12">
+                <a href="https://wa.me/?text=Olá!%20Gostaria%20de%20conhecer%20o%20programa%20de%20parceria%20do%20CheckGolpe.ai%20para%20a%20nossa%20ONG." target="_blank" class="group relative flex items-center justify-center gap-3 w-full py-5 px-6 bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-black text-xl sm:text-2xl rounded-2xl transition-all shadow-[0_0_35px_rgba(16,185,129,0.35)] active:scale-95">
+                    <i class="fa-brands fa-whatsapp text-3xl"></i>
+                    <span>Seja uma ONG Parceira</span>
+                </a>
+                
+                <div class="flex items-center justify-center gap-3 text-xs sm:text-sm text-slate-300 mt-4 font-semibold flex-wrap">
+                    <span class="flex items-center gap-1.5 text-emerald-400"><i class="fa-solid fa-check"></i> 100% Gratuito para as ONGs</span>
+                    <span>•</span>
+                    <span class="flex items-center gap-1.5"><i class="fa-solid fa-shield-heart text-emerald-400"></i> Modelo Custeado 1=1</span>
+                </div>
+            </div>
+
+            <!-- SIMULADOR COMPLETO WHATSAPP COM ACOLHIMENTO -->
+            <div class="max-w-md mx-auto text-left rounded-2xl border border-white/10 bg-[#0b141a] p-4 sm:p-5 shadow-2xl overflow-hidden">
+                <div class="flex items-center gap-3 pb-3 mb-3 border-b border-white/5">
+                    <div class="relative">
+                        <div class="w-10 h-10 rounded-full bg-emerald-500/20 border border-emerald-500/30 flex items-center justify-center text-emerald-400 font-bold text-sm">
+                            <i class="fa-solid fa-shield-halved"></i>
+                        </div>
+                        <span class="absolute bottom-0 right-0 w-3 h-3 bg-emerald-500 rounded-full border-2 border-[#0b141a]"></span>
+                    </div>
+                    <div>
+                        <div class="text-sm sm:text-base font-bold text-white flex items-center gap-1.5">
+                            CheckGolpe.ai — Proteção Social
+                            <i class="fa-solid fa-circle-check text-emerald-400 text-xs"></i>
+                        </div>
+                        <div class="text-xs text-emerald-400 font-medium">Atendimento Acolhedor no Zap</div>
+                    </div>
+                </div>
+
+                <div class="space-y-3.5 text-sm sm:text-base">
+                    <!-- Golpe Recebido -->
+                    <div class="chat-bubble-in p-3.5 text-slate-200 max-w-[92%] space-y-1">
+                        <span class="text-xs font-bold text-rose-400 block tracking-wide uppercase">GOLPE EM POPULAÇÃO VULNERÁVEL:</span>
+                        <p class="leading-snug">"GOVERNO FEDERAL: Seu CPF possui R$ 2.840,00 de desconto no Desenrola Brasil. Pague a taxa de R$ 47,00 no PIX para quitar sua dívida agora: desenrola-falso-gov.site"</p>
+                    </div>
+
+                    <!-- Pergunta da Dona Maria -->
+                    <div class="chat-bubble-out p-3.5 text-slate-100 ml-auto max-w-[90%] space-y-1">
+                        <div class="text-xs text-emerald-300 font-bold">Dona Maria (Atendida na ONG)</div>
+                        <p class="leading-snug">"CheckGolpe, me mandaram isso do Desenrola pedindo R$ 47 de taxa no PIX. É verdade ou é golpe?"</p>
+                        <div class="text-[10px] text-emerald-200/60 text-right font-mono">14:32 ✓✓</div>
+                    </div>
+
+                    <!-- Resposta Alerta + Passo a Passo Acolhedor -->
+                    <div class="chat-bubble-alert p-4 text-rose-100 max-w-[95%] space-y-2.5">
+                        <div class="text-xs sm:text-sm font-extrabold text-rose-400 flex items-center gap-2">
+                            <i class="fa-solid fa-triangle-exclamation text-base"></i> DONA MARIA, É GOLPE! NÃO PAGUE!
+                        </div>
+                        <p class="text-xs sm:text-sm leading-relaxed text-slate-100">
+                            <strong>Agora siga este passo a passo para sua segurança:</strong>
+                        </p>
+                        <ul class="text-xs sm:text-sm space-y-1.5 text-slate-100 list-disc list-inside">
+                            <li><strong>1. Não clique</strong> em nenhum link desta mensagem.</li>
+                            <li><strong>2. Feche</strong> o aplicativo do remetente sem responder.</li>
+                            <li><strong>3. Bloqueie</strong> este número imediatamente.</li>
+                        </ul>
+                        <p class="text-xs text-emerald-300 pt-2 border-t border-rose-500/20 font-semibold">
+                            💚 Fique tranquila! A sua proteção é garantida em parceria com o projeto social da sua comunidade.
+                        </p>
+                        <div class="text-[10px] text-rose-300/50 text-right font-mono">14:32</div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- 3. AMEAÇA NAS PERIFERIAS (DADOS OFICIAIS) -->
+        <section class="border-y-2 border-rose-500/30 bg-[#04060a] py-16 sm:py-20 px-5 relative overflow-hidden">
+            <div class="max-w-4xl mx-auto relative z-10">
+                
+                <div class="text-center max-w-2xl mx-auto mb-12">
+                    <span class="px-4 py-2 rounded-full bg-rose-500/20 border border-rose-500/40 text-rose-300 text-xs sm:text-sm font-black uppercase tracking-widest inline-block mb-3 animate-pulse">
+                        <i class="fa-solid fa-heart-crack"></i> O Impacto do Estelionato na Baixa Renda
+                    </span>
+                    <h2 class="text-3xl sm:text-5xl font-black text-white tracking-tight leading-tight">
+                        Golpes digitais destroem a renda de quem tem menos margem de erro
+                    </h2>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-10">
+                    <div class="glass-panel p-8 sm:p-10 rounded-3xl text-center space-y-3 border-amber-500/30 bg-amber-500/[0.02] shadow-2xl">
+                        <span class="text-xs sm:text-sm font-mono font-bold text-amber-400 tracking-wider uppercase block">Drenado das Famílias Vulneráveis</span>
+                        <div class="text-6xl sm:text-7xl font-black text-amber-400 font-mono tracking-tight my-2 drop-shadow-[0_0_25px_rgba(251,191,36,0.35)]">
+                            R$ 6 BILHÕES
+                        </div>
+                        <p class="text-sm sm:text-base font-semibold text-slate-200">
+                            Arrancados de idosos, mães solo e cadastrados no CadÚnico todos os anos no Brasil.
+                        </p>
+                    </div>
+
+                    <div class="glass-card-danger p-8 sm:p-10 rounded-3xl text-center space-y-3 shadow-2xl">
+                        <span class="text-xs sm:text-sm font-mono font-bold text-rose-400 tracking-wider uppercase block">Perda Devastadora</span>
+                        <div class="text-6xl sm:text-7xl font-black text-rose-500 font-mono tracking-tight my-2 drop-shadow-[0_0_25px_rgba(244,63,94,0.45)]">
+                            100%
+                        </div>
+                        <p class="text-sm sm:text-base font-semibold text-slate-200">
+                            Perder R$ 200 para um idoso vulnerável significa ficar sem medicação contínua ou alimentação básica no mês.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- 4. COMO FUNCIONA A PARCERIA INSTITUCIONAL -->
+        <section id="modelo" class="py-16 sm:py-20 px-5">
+            <div class="max-w-4xl mx-auto">
+                
+                <div class="text-center mb-12">
+                    <span class="px-4 py-2 rounded-full bg-emerald-500/10 border border-emerald-500/30 text-emerald-400 text-xs sm:text-sm font-bold uppercase tracking-wider inline-block mb-3">
+                        <i class="fa-solid fa-handshake font-black"></i> Modelo Social 1 = 1
+                    </span>
+                    <h2 class="text-3xl sm:text-5xl font-black text-white mb-4">Como funciona a parceria com a sua ONG</h2>
+                    <p class="text-slate-300 text-base sm:text-lg">Sua instituição não paga nada. Custeamos o acesso gratuito da sua comunidade com nosso modelo solidário.</p>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
+                    <div class="glass-panel p-6 rounded-2xl text-center space-y-3">
+                        <div class="w-12 h-12 rounded-xl bg-emerald-500/20 text-emerald-400 text-2xl flex items-center justify-center mx-auto font-bold">1</div>
+                        <h3 class="text-lg font-bold text-white">Mapeamento</h3>
+                        <p class="text-xs sm:text-sm text-slate-300">Sua ONG indica o número de idosos, mães solo e famílias vulneráveis atendidas pelo projeto.</p>
+                    </div>
+
+                    <div class="glass-panel p-6 rounded-2xl text-center space-y-3">
+                        <div class="w-12 h-12 rounded-xl bg-emerald-500/20 text-emerald-400 text-2xl flex items-center justify-center mx-auto font-bold">2</div>
+                        <h3 class="text-lg font-bold text-white">Ativação sem Custo</h3>
+                        <p class="text-xs sm:text-sm text-slate-300">Entregamos chaves de acesso no WhatsApp sem necessidade de cadastros complexos ou senhas.</p>
+                    </div>
+
+                    <div class="glass-panel p-6 rounded-2xl text-center space-y-3">
+                        <div class="w-12 h-12 rounded-xl bg-emerald-500/20 text-emerald-400 text-2xl flex items-center justify-center mx-auto font-bold">3</div>
+                        <h3 class="text-lg font-bold text-white">Proteção & Relatório</h3>
+                        <p class="text-xs sm:text-sm text-slate-300">Acompanhamos a comunidade 24h e fornecemos relatórios anônimos de golpes barrados para sua ONG.</p>
+                    </div>
+                </div>
+
+                <!-- JORNADA VISUAL -->
+                <div class="glass-panel p-2 sm:p-4 rounded-3xl shadow-2xl border-emerald-500/30">
+                    <img 
+                        src="https://i.postimg.cc/TYcy6t9V/jornada-humana-escuro.png" 
+                        alt="CheckGolpe.ai: Sua Jornada de Proteção e Solidariedade" 
+                        class="w-full h-auto rounded-2xl block"
+                    />
+                </div>
+
+            </div>
+        </section>
+
+        <!-- 5. INDICADORES DE IMPACTO REAL -->
+        <section id="impacto" class="border-y border-white/5 bg-[#04060a] py-16 px-5">
+            <div class="max-w-5xl mx-auto">
+                <div class="text-center max-w-xl mx-auto mb-10">
+                    <span class="text-xs sm:text-sm font-mono text-emerald-400 uppercase tracking-widest block mb-1">Impacto Transparente</span>
+                    <h3 class="text-3xl sm:text-5xl font-black text-white">Métricas de Inclusão Protegida</h3>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-6 text-center mb-10">
+                    <div class="glass-panel p-6 sm:p-8 rounded-2xl">
+                        <div class="text-5xl sm:text-6xl font-black text-emerald-400 font-mono mb-1">89</div>
+                        <div class="text-sm font-bold text-white uppercase tracking-wider mb-1">Análises Realizadas</div>
+                        <div class="text-xs sm:text-sm text-slate-300">Prints, áudios e boletos checados.</div>
+                    </div>
+
+                    <div class="glass-panel p-6 sm:p-8 rounded-2xl border-rose-500/20">
+                        <div class="text-5xl sm:text-6xl font-black text-rose-400 font-mono mb-1">7</div>
+                        <div class="text-sm font-bold text-rose-300 uppercase tracking-wider mb-1">Golpes Barrados</div>
+                        <div class="text-xs sm:text-sm text-slate-300">Tentativas de estelionato evitadas a tempo.</div>
+                    </div>
+
+                    <div class="glass-panel p-6 sm:p-8 rounded-2xl border-amber-500/20">
+                        <div class="text-5xl sm:text-6xl font-black text-amber-400 font-mono mb-1">12</div>
+                        <div class="text-sm font-bold text-amber-300 uppercase tracking-wider mb-1">Licenças Doadas</div>
+                        <div class="text-xs sm:text-sm text-slate-300">Acessos gratuitos concedidos a comunidades.</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 6. CHAMADA FINAL DE PARCERIA -->
+        <section class="py-16 sm:py-20 px-5">
+            <div class="max-w-3xl mx-auto text-center">
+                <div class="glass-panel p-8 sm:p-12 rounded-3xl border-emerald-500/40 relative overflow-hidden shadow-2xl">
+                    <h2 class="text-3xl sm:text-5xl font-black text-white mb-4">Vamos proteger a sua comunidade juntos?</h2>
+                    <p class="text-slate-300 text-base sm:text-lg mb-8">Agende uma conversa rápida com nosso time de impacto social para apresentar a solução para a sua ONG.</p>
+                    
+                    <a href="https://wa.me/?text=Olá!%20Represento%20uma%20ONG/projeto%20social%20e%20gostaria%20de%20firmar%20parceria%20com%20o%20CheckGolpe.ai" target="_blank" class="block w-full py-5 bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-black text-xl sm:text-2xl rounded-2xl transition-all shadow-xl shadow-emerald-500/25 text-center active:scale-[0.98]">
+                        Conversar com o Time Social no WhatsApp
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- FOOTER INSTITUCIONAL -->
+        <footer class="border-t border-white/5 py-8 text-xs sm:text-sm text-slate-400 text-center px-5">
+            <p class="font-bold text-slate-300">CheckGolpe.ai — Programa de Proteção Social e Cibersegurança Inclusiva</p>
+            <p class="text-xs text-slate-500 mt-1">© 2026 CheckGolpe.ai · Todos os direitos reservados.</p>
+        </footer>
+
+    </div>
+
+</body>
+</html>
