@@ -33,16 +33,16 @@
 
         .chat-bubble-in {
             background-color: #1f2c34;
-            border-radius: 0px 12px 12px 12px;
+            border-radius: 0px 14px 14px 14px;
         }
         .chat-bubble-out {
             background-color: #005c4b;
-            border-radius: 12px 0px 12px 12px;
+            border-radius: 14px 0px 14px 14px;
         }
         .chat-bubble-alert {
-            background-color: rgba(153, 27, 27, 0.45);
-            border: 1px solid rgba(239, 68, 68, 0.45);
-            border-radius: 0px 12px 12px 12px;
+            background-color: rgba(153, 27, 27, 0.55);
+            border: 1px solid rgba(239, 68, 68, 0.55);
+            border-radius: 0px 14px 14px 14px;
         }
     </style>
 </head>
@@ -50,118 +50,114 @@
 
     <div class="spotlight-emerald min-h-screen">
 
-        <!-- 1. HEADER / NAVBAR -->
+        <!-- 1. HEADER / NAVBAR (MINIMALISTA E LIMPO) -->
         <nav class="sticky top-0 z-50 backdrop-blur-xl border-b border-white/5 bg-[#06090e]/80">
             <div class="max-w-5xl mx-auto px-5 h-16 flex items-center justify-between">
                 <div class="flex items-center gap-2.5">
-                    <div class="w-9 h-9 rounded-xl bg-emerald-500/10 border border-emerald-500/20 flex items-center justify-center text-emerald-400 font-bold">
-                        <i class="fa-solid fa-shield-halved text-base"></i>
+                    <div class="w-10 h-10 rounded-xl bg-emerald-500/10 border border-emerald-500/20 flex items-center justify-center text-emerald-400 font-bold">
+                        <i class="fa-solid fa-shield-halved text-lg"></i>
                     </div>
-                    <span class="font-extrabold text-xl tracking-tight text-white">CheckGolpe<span class="text-emerald-400">.ai</span></span>
+                    <span class="font-extrabold text-2xl tracking-tight text-white">CheckGolpe<span class="text-emerald-400">.ai</span></span>
                 </div>
-
-                <a href="#oferta" class="text-xs font-extrabold px-4 py-2 rounded-full bg-emerald-500 hover:bg-emerald-400 text-slate-950 transition-all shadow-md shadow-emerald-500/20 active:scale-95">
-                    Proteger Família
-                </a>
             </div>
         </nav>
 
-        <!-- 2. HERO SECTION COM SIMULADOR DA DONA MARIA -->
+        <!-- 2. HERO SECTION COM SIMULADOR DA DONA MARIA (FONTES EXPANDIDAS) -->
         <section class="max-w-4xl mx-auto px-5 pt-10 pb-12 text-center">
             
-            <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-rose-500/10 border border-rose-500/20 text-rose-400 text-xs sm:text-sm font-semibold mb-6">
-                <span class="flex h-2 w-2 rounded-full bg-rose-500 animate-pulse"></span>
+            <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-rose-500/10 border border-rose-500/20 text-rose-400 text-sm sm:text-base font-semibold mb-6">
+                <span class="flex h-2.5 w-2.5 rounded-full bg-rose-500 animate-pulse"></span>
                 Alerta de Segurança Familiar no WhatsApp
             </div>
 
-            <h1 class="text-3xl sm:text-6xl font-black tracking-tight text-white leading-[1.15] mb-6">
+            <h1 class="text-4xl sm:text-6xl font-black tracking-tight text-white leading-[1.15] mb-6">
                 Proteção na palma da mão para<br class="hidden sm:inline">
                 <span class="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 via-teal-300 to-cyan-300">
                     quem você ama não cair em golpes.
                 </span>
             </h1>
 
-            <p class="text-slate-300 text-base sm:text-lg max-w-2xl mx-auto mb-8 font-normal leading-relaxed">
+            <p class="text-slate-200 text-lg sm:text-xl max-w-2xl mx-auto mb-8 font-normal leading-relaxed">
                 Seja para seus pais, avós ou filhos: nossa tecnologia analisa mensagens, prints, boletos e áudios no WhatsApp e nossa <strong>equipe de peritos antifraude guia sua família passo a passo com total acolhimento</strong> antes de qualquer pagamento.
             </p>
 
             <!-- CTA PRINCIPAL -->
-            <div class="max-w-md mx-auto mb-10">
-                <a href="https://wa.me/" target="_blank" class="group relative flex items-center justify-center gap-3 w-full py-4.5 px-6 bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-black text-lg rounded-xl transition-all shadow-[0_0_30px_rgba(16,185,129,0.3)] active:scale-95">
-                    <i class="fa-brands fa-whatsapp text-2xl"></i>
+            <div class="max-w-md mx-auto mb-12">
+                <a href="https://wa.me/" target="_blank" class="group relative flex items-center justify-center gap-3 w-full py-5 px-6 bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-black text-xl sm:text-2xl rounded-2xl transition-all shadow-[0_0_35px_rgba(16,185,129,0.35)] active:scale-95">
+                    <i class="fa-brands fa-whatsapp text-3xl"></i>
                     <span>Fazer Teste Grátis no WhatsApp</span>
                 </a>
                 
-                <div class="flex items-center justify-center gap-3 text-xs text-slate-400 mt-4 font-medium flex-wrap">
-                    <span class="flex items-center gap-1 text-emerald-400"><i class="fa-solid fa-bolt"></i> Resposta em segundos</span>
+                <div class="flex items-center justify-center gap-3 text-xs sm:text-sm text-slate-300 mt-4 font-semibold flex-wrap">
+                    <span class="flex items-center gap-1.5 text-emerald-400"><i class="fa-solid fa-bolt"></i> Resposta em segundos</span>
                     <span>•</span>
-                    <span class="flex items-center gap-1"><i class="fa-solid fa-mobile-screen-button text-emerald-400"></i> Sem baixar apps</span>
+                    <span class="flex items-center gap-1.5"><i class="fa-solid fa-mobile-screen-button text-emerald-400"></i> Sem baixar apps</span>
                     <span>•</span>
-                    <span class="flex items-center gap-1"><i class="fa-solid fa-credit-card-slash text-emerald-400"></i> Sem cartão</span>
+                    <span class="flex items-center gap-1.5"><i class="fa-solid fa-credit-card-slash text-emerald-400"></i> Sem cartão</span>
                 </div>
             </div>
 
-            <!-- SIMULADOR COMPLETO WHATSAPP -->
-            <div class="max-w-md mx-auto text-left rounded-2xl border border-white/10 bg-[#0b141a] p-4 shadow-2xl overflow-hidden">
+            <!-- SIMULADOR COMPLETO WHATSAPP COM FONTES DE ALTA LEITURA -->
+            <div class="max-w-md mx-auto text-left rounded-2xl border border-white/10 bg-[#0b141a] p-4 sm:p-5 shadow-2xl overflow-hidden">
                 <div class="flex items-center gap-3 pb-3 mb-3 border-b border-white/5">
                     <div class="relative">
-                        <div class="w-9 h-9 rounded-full bg-emerald-500/20 border border-emerald-500/30 flex items-center justify-center text-emerald-400 font-bold text-xs">
+                        <div class="w-10 h-10 rounded-full bg-emerald-500/20 border border-emerald-500/30 flex items-center justify-center text-emerald-400 font-bold text-sm">
                             <i class="fa-solid fa-shield-halved"></i>
                         </div>
-                        <span class="absolute bottom-0 right-0 w-2.5 h-2.5 bg-emerald-500 rounded-full border-2 border-[#0b141a]"></span>
+                        <span class="absolute bottom-0 right-0 w-3 h-3 bg-emerald-500 rounded-full border-2 border-[#0b141a]"></span>
                     </div>
                     <div>
-                        <div class="text-xs font-bold text-white flex items-center gap-1">
+                        <div class="text-sm sm:text-base font-bold text-white flex items-center gap-1.5">
                             CheckGolpe.ai
-                            <i class="fa-solid fa-circle-check text-emerald-400 text-[10px]"></i>
+                            <i class="fa-solid fa-circle-check text-emerald-400 text-xs"></i>
                         </div>
-                        <div class="text-[10px] text-emerald-400">Online agora · Resposta Imediata</div>
+                        <div class="text-xs text-emerald-400 font-medium">Online agora · Resposta Imediata</div>
                     </div>
                 </div>
 
-                <div class="space-y-3 text-xs">
+                <div class="space-y-3.5 text-sm sm:text-base">
                     <!-- Golpe Recebido -->
-                    <div class="chat-bubble-in p-3 text-slate-300 max-w-[90%] space-y-1">
-                        <span class="text-[10px] font-bold text-rose-400 block">MENSAGEM SUSPEITA RECEBIDA:</span>
+                    <div class="chat-bubble-in p-3.5 text-slate-200 max-w-[92%] space-y-1">
+                        <span class="text-xs font-bold text-rose-400 block tracking-wide uppercase">MENSAGEM SUSPEITA RECEBIDA:</span>
                         <p class="leading-snug">"GOVERNO FEDERAL: Seu CPF possui R$ 2.840,00 de desconto no Desenrola Brasil. Pague a taxa de R$ 47,00 no PIX para quitar sua dívida agora: desenrola-falso-gov.site"</p>
                     </div>
 
                     <!-- Pergunta da Dona Maria -->
-                    <div class="chat-bubble-out p-3 text-slate-100 ml-auto max-w-[88%] space-y-1">
-                        <div class="text-[10px] text-emerald-300 font-bold">Dona Maria</div>
+                    <div class="chat-bubble-out p-3.5 text-slate-100 ml-auto max-w-[90%] space-y-1">
+                        <div class="text-xs text-emerald-300 font-bold">Dona Maria</div>
                         <p class="leading-snug">"CheckGolpe.ai, recebi essa mensagem do Desenrola dizendo que preciso pagar R$ 47 de taxa no PIX pra limpar meu nome. É verdade ou é golpe?"</p>
-                        <div class="text-[9px] text-emerald-200/60 text-right">14:32 ✓✓</div>
+                        <div class="text-[10px] text-emerald-200/60 text-right font-mono">14:32 ✓✓</div>
                     </div>
 
-                   <!-- Resposta Alerta + Passo a Passo Imperativo e Acolhedor -->
-<div class="chat-bubble-alert p-3.5 text-rose-100 max-w-[92%] space-y-2">
-    <div class="text-[11px] font-extrabold text-rose-400 flex items-center gap-1.5">
-        <i class="fa-solid fa-triangle-exclamation"></i> DONA MARIA, É GOLPE! NÃO PAGUE!
-    </div>
-    <p class="text-[11px] leading-relaxed text-slate-200">
-        <strong>Agora siga este passo a passo para sua segurança:</strong>
-    </p>
-    <ul class="text-[11px] space-y-1 text-slate-200 list-disc list-inside">
-        <li><strong>1. Não clique</strong> em nenhum link desta mensagem.</li>
-        <li><strong>2. Feche</strong> o aplicativo ou conversa do remetente.</li>
-        <li><strong>3. Bloqueie</strong> este número imediatamente.</li>
-    </ul>
-    <p class="text-[10px] text-emerald-300 pt-1 border-t border-rose-500/20 font-medium">
-        💚 Fique tranquila! Qualquer outra mensagem suspeita, é só encaminhar aqui pra gente.
-    </p>
-    <div class="text-[9px] text-rose-300/50 text-right">14:32</div>
-</div>
+                    <!-- Resposta Alerta + Passo a Passo Acolhedor -->
+                    <div class="chat-bubble-alert p-4 text-rose-100 max-w-[95%] space-y-2.5">
+                        <div class="text-xs sm:text-sm font-extrabold text-rose-400 flex items-center gap-2">
+                            <i class="fa-solid fa-triangle-exclamation text-base"></i> DONA MARIA, É GOLPE! NÃO PAGUE!
+                        </div>
+                        <p class="text-xs sm:text-sm leading-relaxed text-slate-100">
+                            <strong>Agora siga este passo a passo para sua segurança:</strong>
+                        </p>
+                        <ul class="text-xs sm:text-sm space-y-1.5 text-slate-100 list-disc list-inside">
+                            <li><strong>1. Não clique</strong> em nenhum link desta mensagem.</li>
+                            <li><strong>2. Feche</strong> o aplicativo do remetente sem responder.</li>
+                            <li><strong>3. Bloqueie</strong> este número imediatamente.</li>
+                        </ul>
+                        <p class="text-xs text-emerald-300 pt-2 border-t border-rose-500/20 font-semibold">
+                            💚 Fique tranquila! Qualquer outra mensagem duvidosa, é só encaminhar aqui pra gente.
+                        </p>
+                        <div class="text-[10px] text-rose-300/50 text-right font-mono">14:32</div>
+                    </div>
                 </div>
             </div>
 
         </section>
 
-        <!-- 3. AMEAÇA NACIONAL (ALERTA DE IMPACTO FINANCEIRO) -->
-        <section class="border-y-2 border-rose-500/30 bg-[#04060a] py-16 px-5 relative overflow-hidden">
+        <!-- 3. AMEAÇA NACIONAL (ALERTA DE IMPACTO FINANCEIRO - IMPACTO MÁXIMO) -->
+        <section class="border-y-2 border-rose-500/30 bg-[#04060a] py-16 sm:py-20 px-5 relative overflow-hidden">
             <div class="max-w-4xl mx-auto relative z-10">
                 
                 <div class="text-center max-w-2xl mx-auto mb-12">
-                    <span class="px-3.5 py-1.5 rounded-full bg-rose-500/20 border border-rose-500/40 text-rose-300 text-xs font-black uppercase tracking-widest inline-block mb-3 animate-pulse">
+                    <span class="px-4 py-2 rounded-full bg-rose-500/20 border border-rose-500/40 text-rose-300 text-xs sm:text-sm font-black uppercase tracking-widest inline-block mb-3 animate-pulse">
                         <i class="fa-solid fa-triangle-exclamation"></i> Alerta de Emergência Financeira
                     </span>
                     <h2 class="text-3xl sm:text-5xl font-black text-white tracking-tight leading-tight">
@@ -170,47 +166,47 @@
                 </div>
 
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-10">
-                    <div class="glass-card-danger p-8 rounded-3xl text-center space-y-2 shadow-2xl">
-                        <span class="text-xs font-mono font-bold text-rose-400 tracking-wider uppercase block">Prejuízo Total no Brasil</span>
-                        <div class="text-5xl sm:text-6xl font-black text-rose-500 font-mono tracking-tight my-2 drop-shadow-[0_0_20px_rgba(244,63,94,0.4)]">
+                    <div class="glass-card-danger p-8 sm:p-10 rounded-3xl text-center space-y-3 shadow-2xl">
+                        <span class="text-xs sm:text-sm font-mono font-bold text-rose-400 tracking-wider uppercase block">Prejuízo Total no Brasil</span>
+                        <div class="text-6xl sm:text-7xl font-black text-rose-500 font-mono tracking-tight my-2 drop-shadow-[0_0_25px_rgba(244,63,94,0.45)]">
                             R$ 9 BILHÕES
                         </div>
-                        <p class="text-xs sm:text-sm font-semibold text-slate-300">
+                        <p class="text-sm sm:text-base font-semibold text-slate-200">
                             Perdidos por ano em golpes de PIX, falso parente e boletos adulterados.
                         </p>
                     </div>
 
-                    <div class="glass-panel p-8 rounded-3xl text-center space-y-2 border-amber-500/30 bg-amber-500/[0.02] shadow-2xl">
-                        <span class="text-xs font-mono font-bold text-amber-400 tracking-wider uppercase block">Drenado da Baixa Renda</span>
-                        <div class="text-5xl sm:text-6xl font-black text-amber-400 font-mono tracking-tight my-2 drop-shadow-[0_0_20px_rgba(251,191,36,0.3)]">
+                    <div class="glass-panel p-8 sm:p-10 rounded-3xl text-center space-y-3 border-amber-500/30 bg-amber-500/[0.02] shadow-2xl">
+                        <span class="text-xs sm:text-sm font-mono font-bold text-amber-400 tracking-wider uppercase block">Drenado da Baixa Renda</span>
+                        <div class="text-6xl sm:text-7xl font-black text-amber-400 font-mono tracking-tight my-2 drop-shadow-[0_0_25px_rgba(251,191,36,0.35)]">
                             R$ 6 BILHÕES
                         </div>
-                        <p class="text-xs sm:text-sm font-semibold text-slate-300">
+                        <p class="text-sm sm:text-base font-semibold text-slate-200">
                             Arrancados de idosos e famílias vulneráveis. Perder R$ 300 significa ficar sem remédio ou feira no mês.
                         </p>
                     </div>
                 </div>
 
                 <div class="text-center">
-                    <p class="text-xs font-bold text-slate-400 mb-3 uppercase tracking-wider">Principais Golpes Barrados:</p>
-                    <div class="flex flex-wrap justify-center gap-2">
-                        <span class="px-3.5 py-1.5 rounded-xl bg-white/5 border border-white/10 text-xs text-slate-300 font-medium">Falso Desenrola & Limpa Nome</span>
-                        <span class="px-3.5 py-1.5 rounded-xl bg-white/5 border border-white/10 text-xs text-slate-300 font-medium">Valores a Receber (Banco Central)</span>
-                        <span class="px-3.5 py-1.5 rounded-xl bg-white/5 border border-white/10 text-xs text-slate-300 font-medium">Falso Parente ("Mudei de Número")</span>
-                        <span class="px-3.5 py-1.5 rounded-xl bg-white/5 border border-white/10 text-xs text-slate-300 font-medium">Boletos Falsos de Luz e Bancos</span>
+                    <p class="text-xs sm:text-sm font-bold text-slate-300 mb-4 uppercase tracking-wider">Principais Golpes Barrados:</p>
+                    <div class="flex flex-wrap justify-center gap-2.5">
+                        <span class="px-4 py-2 rounded-xl bg-white/5 border border-white/10 text-xs sm:text-sm text-slate-200 font-semibold">Falso Desenrola & Limpa Nome</span>
+                        <span class="px-4 py-2 rounded-xl bg-white/5 border border-white/10 text-xs sm:text-sm text-slate-200 font-semibold">Valores a Receber (Banco Central)</span>
+                        <span class="px-4 py-2 rounded-xl bg-white/5 border border-white/10 text-xs sm:text-sm text-slate-200 font-semibold">Falso Parente ("Mudei de Número")</span>
+                        <span class="px-4 py-2 rounded-xl bg-white/5 border border-white/10 text-xs sm:text-sm text-slate-200 font-semibold">Boletos Falsos de Luz e Bancos</span>
                     </div>
-                    <p class="text-[10px] text-slate-500 font-mono mt-4">Fontes oficiais: FEBRABAN, Fórum Brasileiro de Segurança Pública (FBSP) e Serasa Experian.</p>
+                    <p class="text-xs text-slate-400 font-mono mt-6">Fontes oficiais: FEBRABAN, Fórum Brasileiro de Segurança Pública (FBSP) e Serasa Experian.</p>
                 </div>
 
             </div>
         </section>
 
-        <!-- 4. JORNADA DO PRODUTO (IMAGEM POSTIMAGE ATUALIZADA) -->
+        <!-- 4. JORNADA DO PRODUTO (IMAGEM POSTIMAGE) -->
         <section id="jornada" class="py-16 px-5">
             <div class="max-w-4xl mx-auto text-center">
-                <span class="text-xs font-mono text-emerald-400 uppercase tracking-widest block mb-2">Simplicidade e Acolhimento</span>
-                <h2 class="text-2xl sm:text-4xl font-black text-white mb-3">Da Dúvida ao Alívio em Poucos Segundos</h2>
-                <p class="text-slate-400 text-sm sm:text-base max-w-xl mx-auto mb-8">Análise instantânea com orientação humana e acolhedora. Veja como funciona no WhatsApp de quem você ama:</p>
+                <span class="text-xs sm:text-sm font-mono text-emerald-400 uppercase tracking-widest block mb-2">Simplicidade e Acolhimento</span>
+                <h2 class="text-3xl sm:text-5xl font-black text-white mb-4">Da Dúvida ao Alívio em Poucos Segundos</h2>
+                <p class="text-slate-300 text-base sm:text-lg max-w-xl mx-auto mb-8">Análise instantânea com orientação humana e acolhedora. Veja como funciona no WhatsApp de quem você ama:</p>
 
                 <div class="glass-panel p-2 sm:p-4 rounded-3xl shadow-2xl border-emerald-500/30">
                     <img 
@@ -222,44 +218,44 @@
             </div>
         </section>
 
-        <!-- 5. INDICADORES DE IMPACTO & MODELO 1=1 (PROVA SOCIAL INSTITUCIONAL) -->
+        <!-- 5. INDICADORES DE IMPACTO REAL & CONTADOR DE LICENÇAS SOCIAIS -->
         <section id="impacto" class="border-y border-white/5 bg-[#04060a] py-16 px-5">
             <div class="max-w-5xl mx-auto">
                 <div class="text-center max-w-xl mx-auto mb-10">
-                    <span class="text-xs font-mono text-emerald-400 uppercase tracking-widest block mb-1">Resultados Reais</span>
-                    <h3 class="text-2xl sm:text-4xl font-black text-white">Nosso Impacto em Tempo Real</h3>
+                    <span class="text-xs sm:text-sm font-mono text-emerald-400 uppercase tracking-widest block mb-1">Resultados Reais</span>
+                    <h3 class="text-3xl sm:text-5xl font-black text-white">Nosso Impacto em Tempo Real</h3>
                 </div>
 
-                <div class="grid grid-cols-1 md:grid-cols-3 gap-5 text-center mb-10">
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-6 text-center mb-10">
                     <div class="glass-panel p-6 sm:p-8 rounded-2xl">
-                        <div class="text-4xl sm:text-5xl font-black text-emerald-400 font-mono mb-1">+12.480</div>
-                        <div class="text-xs font-bold text-white uppercase tracking-wider mb-1">Fraudes & Golpes Barrados</div>
-                        <div class="text-xs text-slate-400">Tentativas de estelionato identificadas antes do pagamento.</div>
-                    </div>
-
-                    <div class="glass-panel p-6 sm:p-8 rounded-2xl">
-                        <div class="text-4xl sm:text-5xl font-black text-cyan-400 font-mono mb-1">+85.000</div>
-                        <div class="text-xs font-bold text-white uppercase tracking-wider mb-1">Análises Realizadas</div>
-                        <div class="text-xs text-slate-400">Mídias, áudios, prints e boletos checados pelo CheckGolpe.ai.</div>
+                        <div class="text-5xl sm:text-6xl font-black text-emerald-400 font-mono mb-1">89</div>
+                        <div class="text-sm font-bold text-white uppercase tracking-wider mb-1">Análises Realizadas</div>
+                        <div class="text-xs sm:text-sm text-slate-300">Mídias, áudios, prints e boletos checados.</div>
                     </div>
 
                     <div class="glass-panel p-6 sm:p-8 rounded-2xl border-rose-500/20">
-                        <div class="text-4xl sm:text-5xl font-black text-rose-400 font-mono mb-1">+4.120</div>
-                        <div class="text-xs font-bold text-rose-300 uppercase tracking-wider mb-1">Licenças Solidárias Doadas</div>
-                        <div class="text-xs text-slate-400">Pessoas e famílias vulneráveis protegidas gratuitamente.</div>
+                        <div class="text-5xl sm:text-6xl font-black text-rose-400 font-mono mb-1">7</div>
+                        <div class="text-sm font-bold text-rose-300 uppercase tracking-wider mb-1">Golpes Barrados</div>
+                        <div class="text-xs sm:text-sm text-slate-300">Tentativas de estelionato evitadas a tempo.</div>
+                    </div>
+
+                    <div class="glass-panel p-6 sm:p-8 rounded-2xl border-amber-500/20">
+                        <div class="text-5xl sm:text-6xl font-black text-amber-400 font-mono mb-1">12</div>
+                        <div class="text-sm font-bold text-amber-300 uppercase tracking-wider mb-1">Licenças Sociais Doadas</div>
+                        <div class="text-xs sm:text-sm text-slate-300">Pessoas vulneráveis protegidas via ONGs.</div>
                     </div>
                 </div>
 
                 <!-- COMPROMISSO SOCIAL EXPLICITO UNIVERSAL PARA ONGS -->
                 <div class="glass-panel p-6 sm:p-8 rounded-3xl border-emerald-500/30 max-w-3xl mx-auto">
                     <div class="flex flex-col sm:flex-row items-center gap-5 text-center sm:text-left">
-                        <div class="w-14 h-14 rounded-2xl bg-rose-500/10 border border-rose-500/30 flex items-center justify-center text-rose-400 text-3xl shrink-0">
+                        <div class="w-16 h-16 rounded-2xl bg-rose-500/10 border border-rose-500/30 flex items-center justify-center text-rose-400 text-3xl shrink-0">
                             🤝
                         </div>
-                        <div class="space-y-1.5">
-                            <span class="text-xs font-bold text-rose-400 uppercase tracking-wider">Compromisso Social Garantido</span>
-                            <h4 class="text-lg font-bold text-white">Modelo Solidário 1 = 1 (Ação Social em Periferias)</h4>
-                            <p class="text-xs sm:text-sm text-slate-300 leading-relaxed font-normal">
+                        <div class="space-y-2">
+                            <span class="text-xs sm:text-sm font-bold text-rose-400 uppercase tracking-wider block">Compromisso Social Garantido</span>
+                            <h4 class="text-xl font-bold text-white">Modelo Solidário 1 = 1 (Ação Social em Periferias)</h4>
+                            <p class="text-sm sm:text-base text-slate-200 leading-relaxed font-normal">
                                 Para cada assinatura ativa no CheckGolpe.ai, nós <strong>doamos automaticamente 1 Licença Social Gratuita</strong> para pessoas em situação de alta vulnerabilidade social — incluindo <strong>idosos sem apoio digital, mães solo e famílias de baixa renda</strong> atendidas através de nossas ONGs parceiras.
                             </p>
                         </div>
@@ -273,73 +269,73 @@
             <div class="max-w-3xl mx-auto">
                 
                 <div class="text-center mb-10">
-                    <span class="px-3.5 py-1.5 rounded-full bg-amber-500/10 border border-amber-500/30 text-amber-400 text-xs font-bold uppercase tracking-wider inline-block mb-3">
+                    <span class="px-4 py-2 rounded-full bg-amber-500/10 border border-amber-500/30 text-amber-400 text-xs sm:text-sm font-bold uppercase tracking-wider inline-block mb-3">
                         <i class="fa-solid fa-tag"></i> Oferta de Lançamento
                     </span>
-                    <h2 class="text-2xl sm:text-4xl font-black text-white mb-3">Proteja quem você ama e doe proteção para quem precisa</h2>
-                    <p class="text-slate-300 text-sm sm:text-base">Menos do que o preço de um café por mês para garantir a paz de espírito da sua família e apoiar pessoas vulneráveis.</p>
+                    <h2 class="text-3xl sm:text-5xl font-black text-white mb-4">Proteja quem você ama e doe proteção para quem precisa</h2>
+                    <p class="text-slate-300 text-base sm:text-lg">Menos do que o preço de um café por mês para garantir a paz de espírito da sua família e apoiar pessoas vulneráveis.</p>
                 </div>
 
                 <div class="glass-panel p-8 sm:p-10 rounded-3xl border-emerald-500/40 relative overflow-hidden shadow-2xl">
                     
                     <div class="text-center pb-8 border-b border-white/10 mb-8">
                         <div class="flex items-baseline justify-center gap-2">
-                            <span class="text-slate-500 line-through text-lg font-mono">R$ 24,90</span>
-                            <span class="text-4xl sm:text-6xl font-black text-white font-mono">R$ 10,90</span>
-                            <span class="text-slate-400 text-sm">/mês por linha</span>
+                            <span class="text-slate-500 line-through text-xl font-mono">R$ 24,90</span>
+                            <span class="text-5xl sm:text-7xl font-black text-white font-mono">R$ 10,90</span>
+                            <span class="text-slate-300 text-base sm:text-lg">/mês por linha</span>
                         </div>
-                        <p class="text-xs font-semibold text-emerald-400 mt-2">Menos de R$ 0,37 por dia • Cobertura mensal para uso pessoal</p>
+                        <p class="text-sm font-bold text-emerald-400 mt-2">Menos de R$ 0,37 por dia • Cobertura mensal para uso pessoal</p>
                     </div>
 
-                    <ul class="space-y-3.5 text-xs sm:text-sm text-slate-200 mb-8 max-w-md mx-auto">
+                    <ul class="space-y-4 text-sm sm:text-base text-slate-100 mb-8 max-w-lg mx-auto">
                         <li class="flex items-start gap-3">
-                            <i class="fa-solid fa-circle-check text-emerald-400 text-base shrink-0 mt-0.5"></i>
+                            <i class="fa-solid fa-circle-check text-emerald-400 text-lg shrink-0 mt-0.5"></i>
                             <span>Análise contínua no WhatsApp: texto, prints, boletos e áudios</span>
                         </li>
                         <li class="flex items-start gap-3">
-                            <i class="fa-solid fa-circle-check text-emerald-400 text-base shrink-0 mt-0.5"></i>
+                            <i class="fa-solid fa-circle-check text-emerald-400 text-lg shrink-0 mt-0.5"></i>
                             <span>Acompanhamento e orientação de peritos em cibersegurança</span>
                         </li>
                         <li class="flex items-start gap-3">
-                            <i class="fa-solid fa-circle-check text-emerald-400 text-base shrink-0 mt-0.5"></i>
+                            <i class="fa-solid fa-circle-check text-emerald-400 text-lg shrink-0 mt-0.5"></i>
                             <span><strong>1 Licença Social Doada:</strong> Proteção automática para 1 pessoa vulnerável</span>
                         </li>
                         <li class="flex items-start gap-3">
-                            <i class="fa-solid fa-circle-check text-emerald-400 text-base shrink-0 mt-0.5"></i>
+                            <i class="fa-solid fa-circle-check text-emerald-400 text-lg shrink-0 mt-0.5"></i>
                             <span><strong>Privacidade Absoluta (LGPD):</strong> Mídias analisadas em RAM e apagadas na hora</span>
                         </li>
                         <li class="flex items-start gap-3">
-                            <i class="fa-solid fa-circle-check text-emerald-400 text-base shrink-0 mt-0.5"></i>
+                            <i class="fa-solid fa-circle-check text-emerald-400 text-lg shrink-0 mt-0.5"></i>
                             <span>Cancelamento instantâneo sem multas direto no WhatsApp</span>
                         </li>
                     </ul>
 
-                    <a href="https://wa.me/" target="_blank" class="block w-full py-4 bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-black text-lg rounded-xl transition-all shadow-xl shadow-emerald-500/20 text-center mb-3 active:scale-[0.98]">
+                    <a href="https://wa.me/" target="_blank" class="block w-full py-5 bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-black text-xl sm:text-2xl rounded-2xl transition-all shadow-xl shadow-emerald-500/25 text-center mb-4 active:scale-[0.98]">
                         Ativar Proteção & Doação Solidária
                     </a>
-                    <p class="text-center text-xs text-slate-400 mb-6">Suas primeiras 5 verificações do mês são gratuitas, mesmo sem assinar.</p>
+                    <p class="text-center text-xs sm:text-sm text-slate-400 mb-6">Suas primeiras 5 verificações do mês são gratuitas, mesmo sem assinar.</p>
 
-                    <!-- CAIXINHA DUALIDADE OPÇÃO A (UNIVERSAL PARA ONGS) -->
-                    <div class="bg-gradient-to-r from-emerald-950/40 via-slate-950 to-rose-950/40 border border-emerald-500/30 p-4 sm:p-5 rounded-2xl flex flex-col sm:flex-row items-center justify-between gap-3 text-center sm:text-left">
-                        <div class="flex items-center gap-3">
-                            <div class="w-10 h-10 rounded-xl bg-emerald-500/10 border border-emerald-500/30 flex items-center justify-center text-emerald-400 font-bold shrink-0">
-                                <i class="fa-solid fa-shield-heart text-lg"></i>
+                    <!-- CAIXINHA DUALIDADE OPÇÃO A (EXPANDIDA) -->
+                    <div class="bg-gradient-to-r from-emerald-950/40 via-slate-950 to-rose-950/40 border border-emerald-500/30 p-5 rounded-2xl flex flex-col sm:flex-row items-center justify-between gap-4 text-center sm:text-left">
+                        <div class="flex items-center gap-3.5">
+                            <div class="w-12 h-12 rounded-xl bg-emerald-500/10 border border-emerald-500/30 flex items-center justify-center text-emerald-400 font-bold shrink-0">
+                                <i class="fa-solid fa-shield-heart text-xl"></i>
                             </div>
                             <div>
-                                <span class="block font-black text-white text-sm sm:text-base">1 Assinatura Paga</span>
-                                <span class="text-xs text-emerald-400 font-medium">Sua família 100% protegida no Zap</span>
+                                <span class="block font-black text-white text-base sm:text-lg">1 Assinatura Paga</span>
+                                <span class="text-xs sm:text-sm text-emerald-400 font-medium">Sua família 100% protegida no Zap</span>
                             </div>
                         </div>
 
-                        <div class="text-emerald-400 text-xl font-black font-mono px-2">+</div>
+                        <div class="text-emerald-400 text-2xl font-black font-mono px-2">+</div>
 
-                        <div class="flex items-center gap-3">
-                            <div class="w-10 h-10 rounded-xl bg-rose-500/10 border border-rose-500/30 flex items-center justify-center text-rose-400 font-bold shrink-0">
-                                <i class="fa-solid fa-hand-holding-heart text-lg"></i>
+                        <div class="flex items-center gap-3.5">
+                            <div class="w-12 h-12 rounded-xl bg-rose-500/10 border border-rose-500/30 flex items-center justify-center text-rose-400 font-bold shrink-0">
+                                <i class="fa-solid fa-hand-holding-heart text-xl"></i>
                             </div>
                             <div>
-                                <span class="block font-black text-rose-400 text-sm sm:text-base">1 Licença Social</span>
-                                <span class="text-xs text-slate-300 font-medium">Protege um idoso ou família de ONGs parceiras</span>
+                                <span class="block font-black text-rose-400 text-base sm:text-lg">1 Licença Social</span>
+                                <span class="text-xs sm:text-sm text-slate-200 font-medium">Protege um idoso ou família de ONGs parceiras</span>
                             </div>
                         </div>
                     </div>
@@ -352,27 +348,27 @@
         <section class="py-12 border-t border-white/5 bg-[#04060a] px-5">
             <div class="max-w-4xl mx-auto grid grid-cols-1 sm:grid-cols-3 gap-6 text-center sm:text-left">
                 <div class="space-y-1">
-                    <div class="text-emerald-400 text-lg mb-2"><i class="fa-solid fa-trash-can"></i></div>
-                    <h4 class="font-bold text-sm text-white">Nada Fica Guardado</h4>
-                    <p class="text-xs text-slate-400">Prints e áudios são processados em memória temporária e apagados permanentemente.</p>
+                    <div class="text-emerald-400 text-xl mb-2"><i class="fa-solid fa-trash-can"></i></div>
+                    <h4 class="font-bold text-base text-white">Nada Fica Guardado</h4>
+                    <p class="text-xs sm:text-sm text-slate-300">Prints e áudios são processados em memória temporária e apagados permanentemente.</p>
                 </div>
                 <div class="space-y-1">
-                    <div class="text-emerald-400 text-lg mb-2"><i class="fa-solid fa-user-shield"></i></div>
-                    <h4 class="font-bold text-sm text-white">Zero Dados Sensíveis</h4>
-                    <p class="text-xs text-slate-400">Não pedimos nem armazenamos CPF, senhas, cartões ou chaves Pix.</p>
+                    <div class="text-emerald-400 text-xl mb-2"><i class="fa-solid fa-user-shield"></i></div>
+                    <h4 class="font-bold text-base text-white">Zero Dados Sensíveis</h4>
+                    <p class="text-xs sm:text-sm text-slate-300">Não pedimos nem armazenamos CPF, senhas, cartões ou chaves Pix.</p>
                 </div>
                 <div class="space-y-1">
-                    <div class="text-emerald-400 text-lg mb-2"><i class="fa-solid fa-lock"></i></div>
-                    <h4 class="font-bold text-sm text-white">Nunca Vendemos Dados</h4>
-                    <p class="text-xs text-slate-400">Garantia formal sob a LGPD: sem compartilhamento comercial com terceiros.</p>
+                    <div class="text-emerald-400 text-xl mb-2"><i class="fa-solid fa-lock"></i></div>
+                    <h4 class="font-bold text-base text-white">Nunca Vendemos Dados</h4>
+                    <p class="text-xs sm:text-sm text-slate-300">Garantia formal sob a LGPD: sem compartilhamento comercial com terceiros.</p>
                 </div>
             </div>
         </section>
 
         <!-- FOOTER INSTITUCIONAL -->
-        <footer class="border-t border-white/5 py-8 text-xs text-slate-500 text-center px-5">
-            <p class="font-bold text-slate-400">CheckGolpe.ai — Proteção Familiar e Ação Social no WhatsApp</p>
-            <p class="text-[11px] text-slate-600 mt-1">© 2026 CheckGolpe.ai · Todos os direitos reservados.</p>
+        <footer class="border-t border-white/5 py-8 text-xs sm:text-sm text-slate-400 text-center px-5">
+            <p class="font-bold text-slate-300">CheckGolpe.ai — Proteção Familiar e Ação Social no WhatsApp</p>
+            <p class="text-xs text-slate-500 mt-1">© 2026 CheckGolpe.ai · Todos os direitos reservados.</p>
         </footer>
 
     </div>
